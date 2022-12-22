@@ -200,9 +200,9 @@ export default function Add(props) {
 
 		await props.restreamer.SetEgressMetadata(_channelid, id, $settings);
 
-		let message = i18n._(t`Служба публикацииhas been created`);
+		let message = i18n._(t`Служба публикации создана`);
 		if ($settings.name.length !== 0) {
-			message = i18n._(t`Служба публикации"${$settings.name}" has been created`);
+			message = i18n._(t`Служба публикации"${$settings.name}" создана`);
 		}
 
 		setSaving(false);
