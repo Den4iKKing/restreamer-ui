@@ -353,7 +353,7 @@ test('wizard: rtmp source video h264-aac', async () => {
 		fireEvent.click(button);
 	});
 
-	expect(screen.queryByText(/Audio from device/)).toBeInTheDocument();
+	expect(screen.queryByText(/Звук с устройства/)).toBeInTheDocument();
 	expect(screen.queryByText(/Silence Audio/)).toBeInTheDocument();
 	expect(screen.queryByText(/No audio/)).toBeInTheDocument();
 
@@ -413,7 +413,7 @@ test('wizard: srt source video h264-aac', async () => {
 		fireEvent.click(button);
 	});
 
-	expect(screen.queryByText(/Audio from device/)).toBeInTheDocument();
+	expect(screen.queryByText(/Звук с устройства/)).toBeInTheDocument();
 	expect(screen.queryByText(/Silence Audio/)).toBeInTheDocument();
 	expect(screen.queryByText(/No audio/)).toBeInTheDocument();
 
@@ -612,7 +612,7 @@ test('wizard: network source audio aac', async () => {
 		fireEvent.click(button);
 	});
 
-	expect(screen.queryByText(/Audio from device/)).toBeInTheDocument();
+	expect(screen.queryByText(/Звук с устройства/)).toBeInTheDocument();
 	expect(screen.queryByText(/Silence Audio/)).toBeInTheDocument();
 	expect(screen.queryByText(/No audio/)).toBeInTheDocument();
 
@@ -658,7 +658,7 @@ test('wizard: network source audio non-aac', async () => {
 		fireEvent.click(button);
 	});
 
-	expect(screen.queryByText(/Audio from device/)).toBeInTheDocument();
+	expect(screen.queryByText(/Звук с устройства/)).toBeInTheDocument();
 	expect(screen.queryByText(/Silence Audio/)).toBeInTheDocument();
 	expect(screen.queryByText(/No audio/)).toBeInTheDocument();
 
@@ -704,11 +704,11 @@ test('wizard: network source silence audio', async () => {
 		fireEvent.click(button);
 	});
 
-	expect(screen.queryByText(/Audio from device/)).toBeInTheDocument();
+	expect(screen.queryByText(/Звук с устройства/)).toBeInTheDocument();
 	expect(screen.queryByText(/Silence Audio/)).toBeInTheDocument();
 	expect(screen.queryByText(/No audio/)).toBeInTheDocument();
 
-	expect(screen.queryByLabelText('Audio from device')).toBeChecked();
+	expect(screen.queryByLabelText('Звук с устройства')).toBeChecked();
 	expect(screen.queryByLabelText('Silence Audio')).not.toBeChecked();
 	expect(screen.queryByLabelText('No audio')).not.toBeChecked();
 
@@ -718,7 +718,7 @@ test('wizard: network source silence audio', async () => {
 		fireEvent.click(input);
 	});
 
-	expect(screen.queryByLabelText('Audio from device')).not.toBeChecked();
+	expect(screen.queryByLabelText('Звук с устройства')).not.toBeChecked();
 	expect(screen.queryByLabelText('Silence Audio')).toBeChecked();
 	expect(screen.queryByLabelText('No audio')).not.toBeChecked();
 
@@ -764,11 +764,11 @@ test('wizard: network source no audio', async () => {
 		fireEvent.click(button);
 	});
 
-	expect(screen.queryByText(/Audio from device/)).toBeInTheDocument();
+	expect(screen.queryByText(/Звук с устройства/)).toBeInTheDocument();
 	expect(screen.queryByText(/Silence Audio/)).toBeInTheDocument();
 	expect(screen.queryByText(/No audio/)).toBeInTheDocument();
 
-	expect(screen.queryByLabelText('Audio from device')).toBeChecked();
+	expect(screen.queryByLabelText('Звук с устройства')).toBeChecked();
 	expect(screen.queryByLabelText('Silence Audio')).not.toBeChecked();
 	expect(screen.queryByLabelText('No audio')).not.toBeChecked();
 
@@ -778,7 +778,7 @@ test('wizard: network source no audio', async () => {
 		fireEvent.click(input);
 	});
 
-	expect(screen.queryByLabelText('Audio from device')).not.toBeChecked();
+	expect(screen.queryByLabelText('Звук с устройства')).not.toBeChecked();
 	expect(screen.queryByLabelText('Silence Audio')).not.toBeChecked();
 	expect(screen.queryByLabelText('No audio')).toBeChecked();
 

@@ -69,7 +69,7 @@ export default function Audio(props) {
 							{props.streamList.length !== 0 && (
 								<React.Fragment>
 									<Grid item xs={12}>
-										<FormControlLabel value="video" control={<Radio />} label={i18n._(t`Audio from device`)} />
+										<FormControlLabel value="video" control={<Radio />} label={i18n._(t`Звук с устройства`)} />
 									</Grid>
 									<Grid item xs={12}>
 										<Select label={<Trans>Stream</Trans>} value={props.stream} onChange={props.onAudioStreamChange}>
@@ -81,7 +81,7 @@ export default function Audio(props) {
 							{props.deviceList.length !== 0 && (
 								<React.Fragment>
 									<Grid item xs={12}>
-										<FormControlLabel value="alsa" control={<Radio />} label={i18n._(t`Audio from device`)} />
+										<FormControlLabel value="alsa" control={<Radio />} label={i18n._(t`Звук с устройства`)} />
 									</Grid>
 									<Grid item xs={12}>
 										<Select label={<Trans>Device</Trans>} value={props.address} onChange={props.onAudioDeviceChange}>
