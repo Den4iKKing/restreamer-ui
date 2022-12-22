@@ -57,49 +57,49 @@ export default function License(props) {
 			image = cc_zero;
 			link = 'https://creativecommons.org/licenses/zero/1.0/';
 			description = i18n._(
-				t`The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.`
+				t`Лицо, связавшее произведение с этим документом, сделало произведение общественным достоянием, отказавшись от всех своих прав на произведение во всем мире в соответствии с законом об авторском праве, включая все смежные и смежные права, в той мере, в какой это разрешено законом. Вы можете копировать, изменять, распространять и выполнять работу даже в коммерческих целях, не спрашивая разрешения.`
 			);
 			break;
 		case 'CC BY':
 			image = cc_by;
 			link = `https://creativecommons.org/licenses/by/${version}/`;
 			description = i18n._(
-				t`This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use.`
+				t`Эта лицензия позволяет повторным пользователям распространять, микшировать, адаптировать и использовать материал на любом носителе или в любом формате при условии указания авторства. Лицензия разрешает коммерческое использование.`
 			);
 			break;
 		case 'CC BY-SA':
 			image = cc_by_sa;
 			link = `https://creativecommons.org/licenses/by-sa/${version}/`;
 			description = i18n._(
-				t`This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.`
+				t`Эта лицензия позволяет повторным пользователям распространять, микшировать, адаптировать и использовать материал на любом носителе или в любом формате при условии указания авторства. Лицензия разрешает коммерческое использование. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.`
 			);
 			break;
 		case 'CC BY-NC':
 			image = cc_by_nc;
 			link = `https://creativecommons.org/licenses/by-nc/${version}/`;
 			description = i18n._(
-				t`This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator.`
+				t`Эта лицензия позволяет повторным пользователям распространять, микшировать, адаптировать и использовать материал на любом носителе или в любом формате только в некоммерческих целях и только при условии указания авторства.`
 			);
 			break;
 		case 'CC BY-NC-SA':
 			image = cc_by_nc_sa;
 			link = `https://creativecommons.org/licenses/by-nc-sa/${version}/`;
 			description = i18n._(
-				t`This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.`
+				t`Эта лицензия позволяет повторным пользователям распространять, микшировать, адаптировать и использовать материал на любом носителе или в любом формате только в некоммерческих целях и только при условии указания авторства. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.`
 			);
 			break;
 		case 'CC BY-ND':
 			image = cc_by_nd;
 			link = `https://creativecommons.org/licenses/by-nd/${version}/`;
 			description = i18n._(
-				t`This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, and only so long as attribution is given to the creator. The license allows for commercial use.`
+				t`Эта лицензия позволяет повторным пользователям копировать и распространять материал на любом носителе или в любом формате только в неадаптированной форме и только при условии указания авторства. Лицензия разрешает коммерческое использование.`
 			);
 			break;
 		case 'CC BY-NC-ND':
 			image = cc_by_nc_nd;
 			link = `https://creativecommons.org/licenses/by-nc-nd/${version}/`;
 			description = i18n._(
-				t`This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator.`
+				t`Эта лицензия позволяет повторным пользователям копировать и распространять материал на любом носителе или в любом формате только в неадаптированной форме, только в некоммерческих целях и только при условии указания авторства.`
 			);
 			break;
 		default:

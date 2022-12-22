@@ -295,7 +295,7 @@ const defaultIngestMetadata = {
 			description: '',
 		},
 	},
-	license: 'CC BY 4.0',
+	license: 'none',
 };
 
 const defaultEgressMetadata = {
