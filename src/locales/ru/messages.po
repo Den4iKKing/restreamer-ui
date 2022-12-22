@@ -1787,7 +1787,7 @@ msgstr "Качество"
 #: src/views/Settings.js:1239
 #: src/views/Settings.js:1920
 msgid "RTMP"
-msgstr "RTMP.."
+msgstr "RTMP"
 
 #: src/views/Settings.js:1962
 msgid "RTMP Port"
