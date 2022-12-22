@@ -1786,8 +1786,8 @@ msgstr "Качество"
 #: src/views/Main/index.js:412
 #: src/views/Settings.js:1239
 #: src/views/Settings.js:1920
-msgid "RTMP"
-msgstr "RTMP"
+msgid "RTMP в OBS"
+msgstr "RTMP в OBS"
 
 #: src/views/Settings.js:1962
 msgid "RTMP Port"

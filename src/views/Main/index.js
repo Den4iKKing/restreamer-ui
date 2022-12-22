@@ -409,7 +409,7 @@ export default function Main(props) {
 												size="small"
 												value={props.restreamer.GetPublicAddress('rtmp', _channelid)}
 											>
-												<Trans>RTMP</Trans>
+												<Trans>RTMP в OBS</Trans>
 											</CopyButton>
 										)}
 										{$metadata.control.srt.enable && (
