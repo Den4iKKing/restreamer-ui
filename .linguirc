@@ -1,0 +1,26 @@
+{
+   "catalogs": [
+      {
+         "path": "src/locales/{locale}/messages",
+         "include": [
+            "src/"
+         ],
+         "exclude": [
+            "**/node_modules/**"
+         ]
+      }
+   ],
+   "format": "po",
+   "sourceLocale": "en",
+   "locales": [
+      "en",
+      "de",
+      "fr",
+      "it",
+      "pl",
+      "pt",
+      "es",
+      "ru",
+      "ko"
+   ]
+}
