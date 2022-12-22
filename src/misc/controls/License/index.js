@@ -110,7 +110,7 @@ export default function License(props) {
 		<Grid container spacing={2}>
 			<Grid item xs={12}>
 				<Select label={<Trans>Creative Commons</Trans>} value={props.license} onChange={handleLicenseChange}>
-					<MenuItem value="none">none</MenuItem>
+					<MenuItem value="none">Нет</MenuItem>
 					<MenuItem value="CC0 1.0">CC0 1.0</MenuItem>
 					<MenuItem value="CC BY 4.0">CC BY 4.0</MenuItem>
 					<MenuItem value="CC BY-SA 4.0">CC BY-SA 4.0</MenuItem>
