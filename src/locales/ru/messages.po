@@ -2574,8 +2574,8 @@ msgid "Transmit the main source to the Akamai (MSL) Media Services Live. More de
 msgstr "Передайте основной источник в Akamai (MSL) Media Services Live. Более подробную информацию о настройках MSL Encoder можно найти <0>здесь</0>."
 
 #: src/views/Publication/Services/Restream.js:18
-msgid "Transmit the main source to the Rutube Live RTMP Service. More details about the settings can be found <0>here</0>."
-msgstr "Передайте основной источник в службу Restream RTMP. Более подробную информацию о настройках можно найти <0>здесь</0>."
+msgid "Transmit the main source to the Rutube Live RTMP Service. More details about the settings can be found<0>here</0>."
+msgstr "Передайте основной источник в RTMP-сервис Rutube Live. Подробнее о настройках можно узнать здесь.<0>здесь</0>."
 
 #: src/views/Publication/Services/Linkedin.js:16
 msgid "Transmit to LinkedIn. More details can be found <0>here</0>."
