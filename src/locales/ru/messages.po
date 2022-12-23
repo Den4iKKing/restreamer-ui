@@ -2202,7 +2202,7 @@ msgstr "Размер"
 #: src/views/Edit/index.js:537
 #: src/views/Main/index.js:431
 msgid "Snapshot"
-msgstr "Снимок"
+msgstr "СКРИН"
 
 #: src/views/Login.js:316
 msgid "Social-login (OAuth2, 2FA)"
