@@ -2646,7 +2646,7 @@ msgstr "Не удалось загрузить логотип"
 #: src/misc/Progress.js:51
 #: src/views/Main/Progress.js:57
 msgid "Uptime"
-msgstr "Время безотказной работы"
+msgstr "Время работы"
 
 #: src/views/Login.js:343
 msgid "Use Auth0 for your running Restreamer Core. More <0>details</0>."
