@@ -422,14 +422,6 @@ export default function Main(props) {
 												<Trans>SRT</Trans>
 											</CopyButton>
 										)}
-										<CopyButton
-											variant="outlined"
-											color="default"
-											size="small"
-											value={props.restreamer.GetPublicAddress('snapshot+memfs', _channelid)}
-										>
-											<Trans>Snapshot</Trans>
-										</CopyButton>
 									</Stack>
 								</Stack>
 							</Grid>
