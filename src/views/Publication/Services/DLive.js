@@ -1,19 +1,18 @@
 import React from 'react';
 
+import Logo from './logos/boosty.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Trans } from '@lingui/macro';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
-
-import Logo from './logos/dlive.svg';
-
 import FormInlineButton from '../../../misc/FormInlineButton';
 
 const id = 'dlive';
-const name = 'dlive';
+const name = 'boosty.io';
 const version = '1.0';
-const stream_key_link = 'https://dlive.tv/s/dashboard';
-const description = <Trans>Live-Streaming to dlive Live RTMP Service.</Trans>;
-const image_copyright = '';
+const description = <Trans>Прямая трансляция на сервис boosty.io Live RTMP.</Trans>;
+const stream_key_link = 'https://boosty.to/app/settings/moderation';
+const image_copyright = <Trans>More about licenses here</Trans>;
 const author = {
 	creator: {
 		name: 'Den4iK',
@@ -35,7 +34,7 @@ const requires = {
 };
 
 function ServiceIcon(props) {
-	return <img src={Logo} alt="dlive Logo" {...props} />;
+	return <img src={Logo} alt="boosty Logo" {...props} />;
 }
 
 function init(settings) {
@@ -62,7 +61,7 @@ function Service(props) {
 
 	const createOutput = (settings) => {
 		const output = {
-			address: 'rtmp://stream.dlive.tv/live/' + settings.key,
+			address: 'rtmp://vsu.mycdn.me/input/' + settings.key,
 			options: ['-f', 'flv'],
 		};
 
