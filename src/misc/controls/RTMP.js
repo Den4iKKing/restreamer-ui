@@ -11,7 +11,7 @@ import Checkbox from '../Checkbox';
 
 function init(settings) {
 	const initSettings = {
-		enable: false,
+		enable: true,
 		...settings,
 	};
 
@@ -37,7 +37,7 @@ export default function Control(props) {
 			settings[what] = value;
 		}
 
-		props.onChange(settings, false);
+		props.onChange(settings, true);
 	};
 
 	return (
@@ -78,6 +78,6 @@ export default function Control(props) {
 
 Control.defaulProps = {
 	settings: {},
-	enabled: false,
+	enabled: true,
 	onChange: function (settings, automatic) {},
 };
