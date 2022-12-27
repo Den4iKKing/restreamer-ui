@@ -2536,7 +2536,7 @@ class Restreamer {
 			return null;
 		}
 
-		const egress = this.GetChannelEgress(channelid, id);/
+		const egress = this.GetChannelEgress(channelid, id);
 		if (!egress) {
 			return null;
 		}
