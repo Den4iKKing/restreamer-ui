@@ -9,7 +9,7 @@ import Select from '../Select';
 
 function init(settings) {
 	const initSettings = {
-		source: 'hls+memfs',
+		source: 'rtmp',
 		...settings,
 	};
 
@@ -19,7 +19,7 @@ function init(settings) {
 		case 'srt':
 			break;
 		default:
-			initSettings.source = 'rtmp';
+			initSettings.source = 'hls+memfs';
 	}
 
 	return initSettings;
