@@ -9,7 +9,7 @@ import Select from '../Select';
 
 function init(settings) {
 	const initSettings = {
-		source: 'hls+memfs',
+		source: 'rtmp',
 		...settings,
 	};
 
