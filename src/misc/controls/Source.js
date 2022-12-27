@@ -51,7 +51,7 @@ export default function Control(props) {
 	);
 
 	items.push(
-		<MenuItem key="hls+memfs" value="hls+memfs" disabled={!props.sources.includes('hls+memfs')}>/
+		<MenuItem key="hls+memfs" value="hls+memfs" disabled={!props.sources.includes('hls+memfs')}>
 			HLS (memfs)
 		</MenuItem>
 	);
