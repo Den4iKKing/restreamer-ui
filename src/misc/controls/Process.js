@@ -45,7 +45,7 @@ export default function Control(props) {
 		<Grid container spacing={2}>
 			<Grid item xs={12}>
 				<Checkbox label={<Trans>Reconnect</Trans>} checked={settings.reconnect} onChange={handleChange('reconnect')} />
-				<Checkbox label={<Trans>Низкая задержка (буфер)</Trans>} checked={settings.low_delay} onChange={handleChange('low_delay')} />
+				<Checkbox label={<Trans>Low latency (Buffer)</Trans>} checked={settings.low_delay} onChange={handleChange('low_delay')} />
 			</Grid>
 			<Grid item xs={12} md={6}>
 				<TextField
