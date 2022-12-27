@@ -19,7 +19,7 @@ function init(settings) {
 		case 'srt':
 			break;
 		default:
-			initSettings.source = 'hls+memfs';
+			initSettings.source = 'rtmp';
 	}
 
 	return initSettings;
