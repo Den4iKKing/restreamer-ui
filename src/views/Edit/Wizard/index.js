@@ -197,7 +197,7 @@ export default function Wizard(props) {
 		// Create/update the playersite
 		await props.restreamer.UpdatePlayersite();
 
-		notify.Dispatch('success', 'save:ingest', i18n._(t`Main channel saved`));
+		notify.Dispatch('success', 'save:ingest', i18n._(t`Основной канал сохранен`));
 
 		navigate(`/${_channelid}`);
 
