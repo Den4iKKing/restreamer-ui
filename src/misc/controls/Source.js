@@ -9,13 +9,13 @@ import Select from '../Select';
 
 function init(settings) {
 	const initSettings = {
-		source: 'hls+diskfs',
+		source: 'rtmp',
 		...settings,
 	};
 
 	switch (initSettings.source) {
 		case 'hls+diskfs':
-		case 'rtmp':
+		case 'hls+memfs':
 		case 'srt':
 			break;
 		default:
@@ -45,6 +45,12 @@ export default function Control(props) {
 	const items = [];
 
 	items.push(
+		<MenuItem key="rtmp" value="rtmp" disabled={!props.sources.includes('rtmp')}>
+			RTMP
+		</MenuItem>
+	);
+
+	items.push(
 		<MenuItem key="hls+memfs" value="hls+memfs" disabled={!props.sources.includes('hls+memfs')}>
 			HLS (memfs)
 		</MenuItem>
@@ -53,12 +59,6 @@ export default function Control(props) {
 	items.push(
 		<MenuItem key="hls+diskfs" value="hls+diskfs" disabled={!props.sources.includes('hls+diskfs')}>
 			HLS (diskfs)
-		</MenuItem>
-	);
-
-	items.push(
-		<MenuItem key="rtmp" value="rtmp" disabled={!props.sources.includes('rtmp')}>
-			RTMP
 		</MenuItem>
 	);
 
