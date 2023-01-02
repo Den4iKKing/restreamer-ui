@@ -35,7 +35,7 @@ export default function Source(props) {
 				</Grid>
 				<Grid item xs={12}>
 					<Button variant="outlined" fullWidth color="default" onClick={props.onAdvanced}>
-						<Trans>Advanced setup</Trans>
+						<Trans>Расширенные настройки</Trans>
 					</Button>
 				</Grid>
 			</Grid>
