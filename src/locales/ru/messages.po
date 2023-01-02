@@ -15,15 +15,15 @@ msgstr ""
 
 #: src/views/Publication/Services/Core.js:192
 msgid "1. Switch to the interface of the target Restreamer."
-msgstr ""
+msgstr "1. Переключитесь на интерфейс целевого рестримера."
 
 #: src/views/Publication/Services/Core.js:194
 msgid "2. Create a new channel and select RTMP or SRT server."
-msgstr ""
+msgstr "2. Создайте новый канал и выберите сервер RTMP или SRT."
 
 #: src/views/Publication/Services/Core.js:196
 msgid "3. Copy the URL and paste it in the \"Target address\" field."
-msgstr ""
+msgstr "3. Скопируйте URL-адрес и вставьте его в поле «Целевой адрес»."
 
 #: src/misc/controls/HLS.js:81
 msgid "6 (+ guaranteed to start with a Key frame)"
@@ -67,7 +67,7 @@ msgstr "Отменить"
 #: src/Header.js:283
 #: src/Header.js:324
 msgid "About"
-msgstr "О"
+msgstr "About"
 
 #: src/misc/ChannelList.js:369
 msgid "Add"
@@ -145,7 +145,7 @@ msgstr "Расширенные настройки"
 
 #: src/views/Edit/Wizard/Source.js:38
 msgid "Advanced setup"
-msgstr "Advanced Setup"
+msgstr "Расширенные настройки"
 
 #: src/views/Playersite.js:433
 #: src/views/Publication/Player.js:478
@@ -162,7 +162,7 @@ msgstr "Все"
 
 #: src/misc/filters/video/Bwdif.js:80
 msgid "All frames"
-msgstr ""
+msgstr "Все кадры"
 
 #: src/views/Settings.js:1257
 msgid "All important system settings."
@@ -244,7 +244,7 @@ msgstr "Авторизация"
 
 #: src/misc/filters/video/Bwdif.js:65
 msgid "Auto"
-msgstr ""
+msgstr "Авто"
 
 #: src/misc/controls/HLS.js:123
 msgid "Automatic cleanup of all media data"
@@ -322,11 +322,11 @@ msgstr "Битрейт"
 
 #: src/views/Settings.js:1903
 msgid "Block cache types"
-msgstr ""
+msgstr "Типы блочного кеша"
 
 #: src/misc/filters/video/Bwdif.js:62
 msgid "Bottom field"
-msgstr ""
+msgstr "Нижнее поле"
 
 #: src/views/Edit/Wizard/Metadata.js:24
 #: src/views/Edit/index.js:565
@@ -339,11 +339,11 @@ msgstr "Цвет кнопки"
 
 #: src/misc/filters/video/Scale.js:51
 msgid "By height"
-msgstr ""
+msgstr "По высоте"
 
 #: src/misc/filters/video/Scale.js:54
 msgid "By width"
-msgstr ""
+msgstr "По ширине"
 
 #: src/views/Settings.js:1805
 msgid "Cache for files on /data."
@@ -359,7 +359,7 @@ msgstr "Типы кеша"
 
 #: src/misc/coders/Encoders/video/H264V4L2M2M.js:200
 msgid "Capture buffer"
-msgstr ""
+msgstr "Буфер захвата"
 
 #: src/views/Edit/Sources/AVFoundation.js:197
 msgid "Capture clicks"
@@ -383,7 +383,7 @@ msgstr "Проверьте требования"
 
 #: src/misc/coders/settings/Video.js:343
 msgid "Choose between CFR and VFR (Auto)"
-msgstr ""
+msgstr "Выберите между CFR и VFR (Авто)"
 
 #: src/views/Login.js:367
 msgid "Choose tenant ..."
@@ -456,7 +456,7 @@ msgstr "Не удалось подключиться к ядру Restreamer, в�
 
 #: src/misc/coders/settings/Video.js:337
 msgid "Constant frame rate (CFR)"
-msgstr ""
+msgstr "Постоянная частота кадров (CFR)"
 
 #: src/misc/controls/Metadata.js:70
 #: src/views/Playersite.js:675
@@ -706,11 +706,11 @@ msgstr "EXT-X-VERSION"
 
 #: src/misc/filters/video/Bwdif.js:44
 msgid "Each field"
-msgstr ""
+msgstr "Каждое поле"
 
 #: src/misc/filters/video/Bwdif.js:41
 msgid "Each frames"
-msgstr ""
+msgstr "Каждый кадр"
 
 #: src/views/Edit/index.js:404
 msgid "Edit"
@@ -744,7 +744,7 @@ msgstr "Включить RTMP-сервер..."
 
 #: src/views/Publication/Services/PeerTube.js:100
 msgid "Enable RTMPS transfer"
-msgstr ""
+msgstr "Включить передачу RTMPS"
 
 #: src/views/Edit/Sources/Network.js:747
 #: src/views/Edit/Wizard/Sources/InternalSRT.js:55
@@ -893,7 +893,7 @@ msgstr "Закончить"
 
 #: src/misc/filters/video/Scale.js:48
 msgid "Fix size"
-msgstr ""
+msgstr "Исправить размер"
 
 #: src/views/Edit/Sources/VirtualVideo.js:182
 msgid "Flags"
@@ -913,7 +913,7 @@ msgstr "Принудительная частота кадров на входе
 
 #: src/misc/coders/Encoders/video/H264V4L2M2M.js:197
 msgid "Force key frames"
-msgstr ""
+msgstr "Форсировать ключевые кадры"
 
 #: src/misc/coders/settings/Video.js:325
 msgid "Format"
@@ -925,7 +925,7 @@ msgstr "Потеря кадров"
 
 #: src/misc/coders/settings/Video.js:334
 msgid "Frame is passed through (Passthrough)"
-msgstr ""
+msgstr "Кадр пропускается (сквозной)"
 
 #: src/views/Edit/Sources/Framebuffer.js:129
 msgid "Framebuffer"
@@ -938,7 +938,7 @@ msgstr "Частота кадров"
 
 #: src/misc/coders/settings/Video.js:332
 msgid "Framerate mode"
-msgstr ""
+msgstr "Режим частоты кадров"
 
 #: src/views/Edit/Sources/VirtualAudio.js:145
 msgid "Frequency (Hz)"
@@ -1179,7 +1179,7 @@ msgstr "Список диапазонов IP адресов в нотации CI
 
 #: src/views/Settings.js:1911
 msgid "List of file extensions not to cache (e.g. \".m3u8\"), one per line. Leave empty for none."
-msgstr ""
+msgstr "Список расширений файлов, которые не следует кэшировать (например, \".m3u8\"), по одному в строке. Оставьте пустым, если нет"
 
 #: src/views/Settings.js:1896
 msgid "List of file extensions to cache (e.g. \".html\"), one per line. Leave empty to cache all file types."
@@ -1194,20 +1194,20 @@ msgid "Live-Streaming to Facebook Live RTMP service"
 msgstr "Прямая трансляция на сервис Facebook Live RTMP"
 
 #: src/views/Publication/Services/Instagram.js:19
-msgid "Live-Streaming to Instagram Live RTMP Service. The stream key requires a service such as <0>Instafeed.me</0> or <1>Yellow Duck</1>."
+msgid "Прямая трансляция на сервис Instagram Live RTMP. Для ключа потока требуется служба, такая как <0>Instafeed.me</0> or <1>Yellow Duck</1>."
 msgstr ""
 
 #: src/views/Publication/Services/MediaNetwork.js:15
 msgid "Live-Streaming to Media Network RTMP Service."
-msgstr ""
+msgstr "Прямая трансляция в службу Media Network RTMP."
 
 #: src/views/Publication/Services/PeerTube.js:16
 msgid "Live-Streaming to PeerTube v3+ RTMP/S Service."
-msgstr ""
+msgstr "Прямая трансляция на сервис PeerTube v3+ RTMP/S."
 
 #: src/views/Publication/Services/Trovo.js:15
 msgid "Live-Streaming to Trovo Live RTMP Service."
-msgstr ""
+msgstr "Прямая трансляция на сервис Trovo Live RTMP."
 
 #: src/views/Publication/Services/Twitch.js:17
 msgid "Live-Streaming to Twitch Live RTMP Service."
@@ -1219,7 +1219,7 @@ msgstr "Прямая трансляция на RTMP-сервис Vimeo Live"
 
 #: src/views/Publication/Services/DLive.js:15
 msgid "Live-Streaming to dlive Live RTMP Service."
-msgstr ""
+msgstr "Прямая трансляция для обслуживания Live RTMP."
 
 #: src/views/Publication/Services/Livespotting.js:94
 msgid "Livesource ID"
@@ -1293,7 +1293,7 @@ msgstr "Сделать канал доступным в виде SRT-поток�
 
 #: src/misc/filters/video/Bwdif.js:83
 msgid "Marked frames"
-msgstr ""
+msgstr "Отмеченные кадры"
 
 #: src/misc/controls/HLS.js:117
 msgid "Master playlist (increases browser/client compatibility)"
@@ -1387,11 +1387,11 @@ msgstr "Подробнее о сервисе"
 
 #: src/views/Settings.js:1833
 msgid "Must be larger than maximum file size in cache."
-msgstr ""
+msgstr "Must be larger than maximum file size in cache."
 
 #: src/views/Settings.js:1873
 msgid "Must be smaller than maximum cache size."
-msgstr ""
+msgstr "Должен быть меньше максимального размера кэша."
 
 #: src/views/Publication/Player.js:476
 msgid "Mute"
@@ -1513,7 +1513,7 @@ msgstr "Открыть"
 
 #: src/misc/coders/Encoders/video/H264V4L2M2M.js:203
 msgid "Output buffer"
-msgstr ""
+msgstr "Выходной буфер"
 
 #: src/misc/filters/audio/Pan.js:45
 msgid "Pan"
@@ -1896,7 +1896,7 @@ msgstr "Регион"
 
 #: src/views/Password.js:146
 msgid "Register user"
-msgstr ""
+msgstr "Зарегистрировать пользователя"
 
 #: src/views/Password.js:178
 #: src/views/Settings.js:2266
@@ -1913,7 +1913,7 @@ msgstr "Требуется активация"
 
 #: src/views/Publication/Player.js:497
 msgid "Reset logo"
-msgstr ""
+msgstr "Сбросить логотип"
 
 #: src/views/Settings.js:1300
 #: src/views/Settings.js:2283
@@ -1942,7 +1942,7 @@ msgstr "Сервис Restreamer"
 
 #: src/views/Publication/Services/Core.js:189
 msgid "Restreamer instructions"
-msgstr ""
+msgstr "Инструкции для рестримеров"
 
 #: src/views/Main/index.js:273
 msgid "Retrieving stream data ..."
@@ -2014,7 +2014,7 @@ msgstr "Масштаб"
 #: src/misc/filters/video/Scale.js:104
 #: src/misc/filters/video/Scale.js:109
 msgid "Scale size"
-msgstr ""
+msgstr "Размер шкалы"
 
 #: src/views/Settings.js:1855
 msgid "Seconds to keep files in cache."
@@ -2312,7 +2312,7 @@ msgstr "Система"
 
 #: src/views/Publication/Services/Core.js:179
 msgid "Target address"
-msgstr ""
+msgstr "Целевой адрес"
 
 #: src/views/Playersite.js:351
 #: src/views/Playersite.js:456
@@ -2488,7 +2488,7 @@ msgid "Time until an inactive viewer connection is treated as closed."
 msgstr "Время до того, как неактивное соединение со зрителем будет считаться закрытым."
 
 #: src/misc/coders/Encoders/video/H264V4L2M2M.js:188
-msgid "To stabilize the system, increase the HLS segment length for the keyframe interval by 2-3 * (Processing and Control)."
+msgid "Для стабилизации системы увеличьте длину сегмента HLS для интервала ключевого кадра на 2-3 * (Обработка и управление)."
 msgstr ""
 
 #: src/views/Settings.js:1357
@@ -2499,7 +2499,7 @@ msgstr "Токен"
 
 #: src/misc/filters/video/Bwdif.js:59
 msgid "Top field"
-msgstr ""
+msgstr "Верхнее поле"
 
 #: src/views/Publication/Services/Telegram.js:13
 msgid "Transmit a Livestream to a Telegram Channel."
@@ -2625,7 +2625,7 @@ msgstr "Не выбрано"
 
 #: src/misc/Changelog.js:173
 msgid "Update details (Changelog)"
-msgstr ""
+msgstr "Детали обновления (журнал изменений)"
 
 #: src/views/Playersite.js:498
 #: src/views/Playersite.js:515
@@ -2694,7 +2694,7 @@ msgstr "Имя пользователя для устройства."
 
 #: src/misc/coders/Encoders/video/H264V4L2M2M.js:174
 msgid "V4L2_M2M is experimental."
-msgstr ""
+msgstr "V4L2_M2M является экспериментальным."
 
 #: src/views/Publication/Services/Livespotting.js:88
 msgid "VPU ID"
@@ -2702,7 +2702,7 @@ msgstr "VPU ID"
 
 #: src/misc/coders/settings/Video.js:340
 msgid "Variable frame rate (VFR)"
-msgstr ""
+msgstr "Переменная частота кадров (VFR)"
 
 #: src/misc/filters/video/VFlip.js:65
 msgid "Vertical Flip"
@@ -2755,7 +2755,7 @@ msgstr "Объем"
 
 #: src/misc/coders/Encoders/video/H264V4L2M2M.js:176
 msgid "We recommend OpenMAX IL for Raspberry PI (3/4) with a 32-bit operating system."
-msgstr ""
+msgstr "Мы рекомендуем OpenMAX IL для Raspberry PI (3/4) с 32-разрядной операционной системой."
 
 #: src/views/Welcome.js:27
 msgid "Welcome to Comedoz Restreamer, the solution for fast and easy video publishing. Free for private and commercial use. Further help in the <0>docs</0>."
