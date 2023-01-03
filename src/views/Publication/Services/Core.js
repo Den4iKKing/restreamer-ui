@@ -18,7 +18,7 @@ const stream_key_link_srt = 'https://docs.datarhei.com/restreamer/knowledge-base
 const description = (
 	<Trans>
 		Transmit the main source to an datarhei Core Ressource. More details about the settings can be found{' '}
-		<Link color="secondary" target="_blank" href="http://restreamer.ru">
+		<Link color="secondary" target="_blank" href="./">
 			here
 		</Link>
 		.
@@ -28,11 +28,11 @@ const image_copyright = <Trans>Please contact the operator of the service and ch
 const author = {
 	creator: {
 		name: 'restreamer.ru',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 	maintainer: {
 		name: 'restreamer.ru',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 };
 const category = 'software';

@@ -49,7 +49,7 @@ export default function Video(props) {
 							<Typography textAlign="center">
 								<Trans>
 									The source doesn't provide any compatible video streams. Please check the{' '}
-									<Link color="secondary" target="_blank" href="http://restreamer.ru">
+									<Link color="secondary" target="_blank" href="./">
 										requirements
 									</Link>
 									.

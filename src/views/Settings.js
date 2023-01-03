@@ -1317,7 +1317,7 @@ export default function Settings(props) {
 								<Grid item xs={12}>
 									<Typography variant="body1">
 										<Trans>Setting for connection to the service.</Trans>{' '}
-										<Link color="secondary" href="http://restreamer.ru" target="_blank">
+										<Link color="secondary" href="./" target="_blank">
 											<Trans>More about the service</Trans>
 										</Link>
 										.

@@ -16,11 +16,11 @@ const image_copyright = <Trans>Подробнее о лицензиях здес
 const author = {
 	creator: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 	maintainer: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 };
 

@@ -342,7 +342,7 @@ export default function Login(props) {
 									<Typography>
 										<Trans>
 											Use Auth0 for your running Restreamer Core. More{' '}
-											<Link color="secondary" target="_blank" href="http://restreamer.ru">
+											<Link color="secondary" target="_blank" href="./">
 												details
 											</Link>
 											.

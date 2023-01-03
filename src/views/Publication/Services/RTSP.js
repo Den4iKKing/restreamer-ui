@@ -37,11 +37,11 @@ const image_copyright = <Trans>Please contact the operator of the service and ch
 const author = {
 	creator: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 	maintainer: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 };
 const category = 'universal';

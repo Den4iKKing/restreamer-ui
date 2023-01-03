@@ -24,11 +24,11 @@ const image_copyright = <Trans>Please get in touch with the operator of the serv
 const author = {
 	creator: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 	maintainer: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 };
 const category = 'software';

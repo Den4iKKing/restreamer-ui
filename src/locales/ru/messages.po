@@ -67,7 +67,7 @@ msgstr "Отменить"
 #: src/Header.js:283
 #: src/Header.js:324
 msgid "About"
-msgstr "About"
+msgstr "cccccc"
 
 #: src/misc/ChannelList.js:369
 msgid "Add"

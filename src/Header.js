@@ -198,7 +198,7 @@ function AboutModal(props) {
 						</Typography>
 						<Typography>
 							<strong>Website</strong>:{' '}
-							<Link color="secondary" target="_blank" href="http://restreamer.ru/">
+							<Link color="secondary" target="_blank" href="./">
 							restreamer.ru
 							</Link>
 						</Typography>
@@ -276,7 +276,7 @@ function HeaderMenu(props) {
 						</ListItemIcon>
 						<Trans>About</Trans>
 					</MenuItem>
-					<MenuItem component="a" href="http://restreamer.ru/" target="blank">
+					<MenuItem component="a" href="./" target="blank">
 						<ListItemIcon>
 							<HelpOutlineIcon fontSize="small" />
 						</ListItemIcon>
@@ -317,7 +317,7 @@ function HeaderMenu(props) {
 						</ListItemIcon>
 						<Trans>About</Trans>
 					</MenuItem>
-					<MenuItem component="a" href="http://restreamer.ru/" target="blank">
+					<MenuItem component="a" href="./" target="blank">
 						<ListItemIcon>
 							<HelpOutlineIcon fontSize="small" />
 						</ListItemIcon>

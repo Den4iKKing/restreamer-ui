@@ -34,11 +34,11 @@ const image_copyright = <Trans>This is to mention the copyright regulations for 
 const author = {
 	creator: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 	maintainer: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 };
 

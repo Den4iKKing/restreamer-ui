@@ -26,7 +26,7 @@ export default function Welcome(props) {
 					<Typography align="center">
 						<Trans>
 							Welcome to Comedoz Restreamer, the solution for fast and easy video publishing. Free for private and commercial use. Further help in the{' '}
-							<Link color="secondary" target="_blank" href="http://restreamer.ru">
+							<Link color="secondary" target="_blank" href="./">
 								docs
 							</Link>
 							.

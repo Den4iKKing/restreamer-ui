@@ -18,11 +18,11 @@ const image_copyright = <Trans>More about licenses here</Trans>;
 const author = {
 	creator: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 	maintainer: {
 		name: 'Den4iK',
-		link: 'http://restreamer.ru',
+		link: './',
 	},
 };
 const category = 'platform';
