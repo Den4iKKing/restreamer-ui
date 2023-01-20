@@ -182,7 +182,7 @@ function AboutModal(props) {
 					<Grid item xs={12}></Grid>
 					<Grid item xs={12}>
 						<Typography>
-							<strong>Release</strong>: restreamer 0.1
+							<strong>Release</strong>: restreamer 0.2
 						</Typography>
 						<Typography>
 							<strong>Licence</strong>:{' '}
