@@ -409,7 +409,7 @@ export default function Main(props) {
 												size="small"
 												value={props.restreamer.GetPublicAddress('rtmp', _channelid)}
 											>
-												<Trans>URL Трансляции</Trans>
+												<Trans>Ключ Трансляции</Trans>
 											</CopyButton>
 										)}
 										{$metadata.control.srt.enable && (
