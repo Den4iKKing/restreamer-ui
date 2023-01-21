@@ -74,11 +74,11 @@ const useStyles = makeStyles((theme) => ({
 			marginLeft: 40,
 		},
 		'& .headerTitle': {
-			fontFamily: '"Dosis", "Roboto", "Helvetica", "Arial", sans-serif',
+			fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
 			fontSize: '3rem',
-			fontWeight: 300,
+			fontWeight: 500,
 			marginLeft: 10,
-			marginBottom: '0.2em',
+			marginBottom: '-0.8em',
 		},
 		'@media (max-width: 599px)': {
 			'& .headerRight': {
