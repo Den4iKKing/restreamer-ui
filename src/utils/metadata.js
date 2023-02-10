@@ -660,7 +660,7 @@ const createInputsOutputs = (sources, profiles) => {
 			}
 		}
 
-		const options = ['-map', index + ':' + stream.stream,'?', ...local];
+		const options = ['-map', index + ':' + stream.stream, ...local];
 
 		if (profile.audio.encoder.coder !== 'none' && profile.audio.source !== -1 && profile.audio.stream !== -1) {
 			global = [...global, ...profile.audio.decoder.mapping.global];
@@ -694,7 +694,7 @@ const createInputsOutputs = (sources, profiles) => {
 				}
 			}
 
-			options.push('-map', index + ':' + stream.stream,'?', ...local);
+			options.push('-map', index + ':' + stream.stream, ...local);
 		} else {
 			options.push('-an');
 		}
