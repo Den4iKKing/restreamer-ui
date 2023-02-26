@@ -88,7 +88,7 @@ registry.Register(Facebook);
 //registry.Register(DaCast);
 //registry.Register(CDN77);
 //registry.Register(Core);
-//registry.Register(Owncast);
+registry.Register(Owncast);
 //registry.Register(WOWZA);
 //registry.Register(Red5);
 //registry.Register(Icecast);

@@ -2,25 +2,19 @@ import React from 'react';
 
 import { Trans } from '@lingui/macro';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+
 import TextField from '@mui/material/TextField';
 
 import Logo from './logos/owncast.svg';
 
+import FormInlineButton from '../../../misc/FormInlineButton';
+
 const id = 'owncast';
-const name = 'Owncast';
+const name = 'KICK';
 const version = '1.0';
-const stream_key_link = '';
-const description = (
-	<Trans>
-		Transmit your Livestream to an Owncast server.{' '}
-		<Link color="secondary" target="_blank" href="https://owncast.online/quickstart/startstreaming/">
-			Here{' '}
-		</Link>
-		you can find more details about the settings.
-	</Trans>
-);
-const image_copyright = <Trans>Please get in touch with the operator of the service and check what happens.</Trans>;
+const stream_key_link = 'https://kick.com/dashboard/settings/stream';
+const description = <Trans>Live-Streaming to KICK Live RTMPS Service.</Trans>;
+const image_copyright = '';
 const author = {
 	creator: {
 		name: 'Den4iK',
@@ -31,7 +25,7 @@ const author = {
 		link: './',
 	},
 };
-const category = 'software';
+const category = 'platform';
 const requires = {
 	protocols: ['rtmps'],
 	formats: ['flv'],
@@ -42,14 +36,12 @@ const requires = {
 };
 
 function ServiceIcon(props) {
-	return <img src={Logo} alt="Telegram Logo" {...props} />;
+	return <img src={Logo} alt="Owncast Logo" {...props} />;
 }
 
 function init(settings) {
 	const initSettings = {
-		protocol: 'rtmp://',
-		server_url: '',
-		stream_key: '',
+		key: '',
 		...settings,
 	};
 
@@ -71,7 +63,7 @@ function Service(props) {
 
 	const createOutput = (settings) => {
 		const output = {
-			address: settings.protocol + settings.server_url + '/' + settings.stream_key,
+			address: 'rtmps://fa723fc1b171.global-contribute.live-video.net' + settings.key,
 			options: ['-f', 'flv'],
 		};
 
@@ -80,37 +72,13 @@ function Service(props) {
 
 	return (
 		<Grid container spacing={2}>
-			<Grid item xs={12} md={3}>
-				<TextField
-					variant="outlined"
-					fullWidth
-					type="url"
-					label={<Trans>Protocol</Trans>}
-					value={settings.protocol}
-					onChange={handleChange('protocol')}
-					readOnly
-					disabled
-				/>
-			</Grid>
 			<Grid item xs={12} md={9}>
-				<TextField
-					variant="outlined"
-					fullWidth
-					placeholder="yourserver/live"
-					label={<Trans>Server URL</Trans>}
-					value={settings.server_url}
-					onChange={handleChange('server_url')}
-				/>
+				<TextField variant="outlined" fullWidth label={<Trans>Stream key</Trans>} value={settings.key} onChange={handleChange('key')} />
 			</Grid>
-			<Grid item xs={12}>
-				<TextField
-					variant="outlined"
-					fullWidth
-					placeholder="abc123"
-					label={<Trans>Stream key</Trans>}
-					value={settings.stream_key}
-					onChange={handleChange('stream_key')}
-				/>
+			<Grid item xs={12} md={3}>
+				<FormInlineButton target="blank" href={stream_key_link} component="a">
+					<Trans>GET</Trans>
+				</FormInlineButton>
 			</Grid>
 		</Grid>
 	);
