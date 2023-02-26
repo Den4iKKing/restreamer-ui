@@ -63,7 +63,7 @@ function Service(props) {
 
 	const createOutput = (settings) => {
 		const output = {
-			address: 'rtmps://fa723fc1b171.global-contribute.live-video.net' + settings.key,
+			address: 'rtmps://fa723fc1b171.global-contribute.live-video.net/' + settings.key,
 			options: ['-f', 'flv'],
 		};
 
